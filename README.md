@@ -1,3 +1,5 @@
+# Library Using Near Smart Contract (Assembly)
+
 ## Steup
 Folder structure to develop Near smart contract using assembly language.
 
@@ -11,6 +13,7 @@ Folder structure to develop Near smart contract using assembly language.
 6. npm i --save-dev @as-pect/cli
 7. npx asp --init
 8. npm i near-sdk-as
+9. npm i near-sdk-core
 
 ### Modification
 

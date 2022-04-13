@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Folder structure to develop Near smart contract using assembly language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx asp --verbose",
+    "asbuild": "npx asb",
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idirall22/Todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idirall22/Todo/issues"
+  },
+  "homepage": "https://github.com/idirall22/Todo#readme",
+  "devDependencies": {
+    "@as-pect/cli": "^6.2.4",
+    "assemblyscript": "^0.19.23"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.19.23",
+    "near-sdk-as": "^3.2.3",
+    "near-sdk-core": "^3.2.1"
+  }
+}
